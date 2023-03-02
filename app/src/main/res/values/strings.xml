@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">laboratorioNo2</string>
+    <string name="titulo_Laboratorio">Laboratorio No.2</string>
+    <string name="titulo_tema">Películas</string>
+    <string name="descripcion_1">El Camino: A Breaking Bad Movie\n\n Es una película estadounidense de drama y crimen de 2019 que sirve como <b>continuación de la serie de televisión Breaking Bad.</b> El creador de la serie, Vince Gilligan, sirve como escritor y director de la película, con Aaron Paul repitiendo su papel de Jesse Pinkman. La trama sigue lo que le sucede a Pinkman después de los eventos del final de la serie.\n\n Se rumoreaba una película de Breaking Bad desde el final de la serie en 2013. Gilligan se acercó a Paul con la idea en 2017, cerca del décimo aniversario de Breaking Bad, y la filmación comenzó en secreto en Nuevo México en noviembre de 2018, con una duración de casi 60 días. \n El proyecto no se confirmó hasta agosto de 2019, cuando Netflix lanzó un avance.\n La película se lanzó digitalmente en Netflix, y limitada teatralmente, el 11 de octubre de 2019, con una emisión televisiva en una fecha posterior en AMC. Recibió críticas positivas de los críticos, quienes elogiaron el desempeño de Paul y lo notaron como un cierre para los fanáticos de la serie. \n</string>
+
 </resources>
