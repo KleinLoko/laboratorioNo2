@@ -20,32 +20,76 @@
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="272dp" />
 
-    <TextView
-        android:id="@+id/subtitulo_proyecto"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@id/Titulo_proyecto"
-        android:padding="@dimen/padding_regular"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
-        android:text="@string/titulo_tema"
-        />
+        >
 
-    <ImageView
-        android:id="@+id/Imagen_pelicula"
-        android:layout_width="match_parent"
-        android:layout_height="236dp"
-        android:layout_below="@id/subtitulo_proyecto"
-        app:srcCompat="@drawable/el_camino" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Descripcion_pelicula"
-        android:layout_below="@id/Imagen_pelicula"
-        android:lineSpacingExtra="@dimen/line_spacing"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/descripcion_1"
-        />
+            <TextView
+                android:id="@+id/subtitulo_proyecto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Titulo_proyecto"
+                android:padding="@dimen/padding_regular"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:text="@string/titulo_tema"
+                />
 
+            <ImageView
+                android:id="@+id/Imagen_pelicula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-170dp"
+                android:layout_marginBottom="-170dp"
+                android:layout_below="@id/subtitulo_proyecto"
+                app:srcCompat="@drawable/el_camino" />
+
+            <TextView
+                android:id="@+id/Titulo_Pelicula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Imagen_pelicula"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/titulo_pelicula_text"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                />
+
+            <TextView
+                android:id="@+id/Descripcion_pelicula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Titulo_Pelicula"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/descripcion_1" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:onClick="@string/descripcion_1"
+                android:text="ANTERIOR" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIGUIENTE"
+                android:layout_alignParentBotton="true"
+                android:layout_marginHorizontal="5dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>
